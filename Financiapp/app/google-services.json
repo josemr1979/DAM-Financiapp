@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430534573824",
+    "project_id": "financiapp-cb59f",
+    "storage_bucket": "financiapp-cb59f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430534573824:android:d596da184cc7ef1b76fde5",
+        "android_client_info": {
+          "package_name": "com.example.financiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ0IZwRnNc0WpAeFa9d4MpltVh87biDNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

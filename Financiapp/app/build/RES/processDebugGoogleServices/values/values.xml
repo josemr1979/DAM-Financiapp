@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">430534573824</string>
+    <string name="google_api_key" translatable="false">AIzaSyCQ0IZwRnNc0WpAeFa9d4MpltVh87biDNM</string>
+    <string name="google_app_id" translatable="false">1:430534573824:android:d596da184cc7ef1b76fde5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCQ0IZwRnNc0WpAeFa9d4MpltVh87biDNM</string>
+    <string name="google_storage_bucket" translatable="false">financiapp-cb59f.appspot.com</string>
+    <string name="project_id" translatable="false">financiapp-cb59f</string>
+</resources>
