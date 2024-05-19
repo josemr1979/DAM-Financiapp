@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/webView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/descarga"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tVqds"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="¿Qué Debes Saber?"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toEndOf="@+id/iVqds"
+        app:layout_constraintTop_toBottomOf="@+id/webViewEuribor" />
+
+    <TextView
+        android:id="@+id/tVdp"
+        android:layout_width="235dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Documentación a Presentar"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toEndOf="@+id/iVdoc"
+        app:layout_constraintTop_toBottomOf="@+id/tVqds" />
+
+    <TextView
+        android:id="@+id/tVs"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Simulador"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toEndOf="@+id/iVsim"
+        app:layout_constraintTop_toBottomOf="@+id/tVdp" />
+
+    <TextView
+        android:id="@+id/tVce"
+        android:layout_width="235dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Cálculo Endeudamiento"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toEndOf="@+id/iVce"
+        app:layout_constraintTop_toBottomOf="@+id/tVs" />
+
+    <TextView
+        android:id="@+id/tVei"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Enlaces Interés"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVce" />
+
+    <ImageView
+        android:id="@+id/iVdoc"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVqds"
+        app:srcCompat="@drawable/oficina" />
+
+    <ImageView
+        android:id="@+id/iVqds"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/question2" />
+
+    <ImageView
+        android:id="@+id/iVsim"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVdoc"
+        app:srcCompat="@drawable/calculator" />
+
+    <ImageView
+        android:id="@+id/iVce"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVsim"
+        app:srcCompat="@drawable/payment" />
+
+    <ImageView
+        android:id="@+id/iVei"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iVce"
+        app:srcCompat="@drawable/starthere" />
+
+    <WebView
+        android:id="@+id/webViewEuribor"
+        android:layout_width="279dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

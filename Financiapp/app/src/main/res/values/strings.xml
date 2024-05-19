@@ -1,0 +1,7 @@
+<resources>
+    <!-- CREDENCIALES APP -->
+    <string name="app_name">Financiapp</string>
+    <string name="developer">Jose Martín</string>
+    <string name="desarrollo">Desarrosallo por:</string>
+    <string name="version">Versión 1.0.0</string>
+</resources>
